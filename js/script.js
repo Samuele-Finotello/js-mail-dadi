@@ -22,3 +22,10 @@ let point;
 if (numPc > numUser) {
   point = `Ha vinto il PC con il numero: ${numPc} contro il numero dello user: ${numUser}`;
 }
+else if (numUser > numPc) {
+  point = `Ha vinto lo user con il numero: ${numUser} contro il numero del PC: ${numPc}`;
+}
+else
+  point = `Il PC e lo user hanno pareggiato col numero: ${numPc}`;
+
+console.log(point);
