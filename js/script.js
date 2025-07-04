@@ -18,3 +18,7 @@ console.log(`${mailOspite}: ${invitato}`);
 //Dadi
 const numPc = Math.floor(Math.random() * 6) + 1;
 const numUser = Math.floor(Math.random() * 6) + 1;
+let point;
+if (numPc > numUser) {
+  point = `Ha vinto il PC con il numero: ${numPc} contro il numero dello user: ${numUser}`;
+}
