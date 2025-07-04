@@ -10,3 +10,4 @@ for (i = 0; i < mailInvitati.length; i++) {
   else
     invitato = "Non sei invitato"
 }
+console.log(`${mailOspite}: ${invitato}`);
