@@ -14,3 +14,7 @@ for (i = 0; i < mailInvitati.length; i++) {
     invitato = "Non sei invitato"
 }
 console.log(`${mailOspite}: ${invitato}`);
+
+//Dadi
+const numPc = Math.floor(Math.random() * 6) + 1;
+const numUser = Math.floor(Math.random() * 6) + 1;
