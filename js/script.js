@@ -1,7 +1,12 @@
 //Mail
 let invitato;
 let mailInvitati = ['pippo@gmail.com', 'claudio@icloud.com', 'piero@libero.it', 'pluto@gmail.com'];
-const numInvitati = parseInt(prompt('Quanti invitati ci saranno?'));
-for (i = 0; i < numInvitati; i++) {
-
+let mailOspite = prompt('Scrivi la tua mail');
+for (i = 0; i < mailInvitati.length; i++) {
+  if (mailInvitati[i] === mailOspite) {
+    invitato = "Sei invitato";
+    break;
+  }
+  else
+    invitato = "Non sei invitato"
 }
