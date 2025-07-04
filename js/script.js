@@ -16,9 +16,11 @@ for (i = 0; i < mailInvitati.length; i++) {
 console.log(`${mailOspite}: ${invitato}`);
 
 //Dadi
+//creo due variabili con all'interno 1 numero casuale 
 const numPc = Math.floor(Math.random() * 6) + 1;
 const numUser = Math.floor(Math.random() * 6) + 1;
 let point;
+//confronto le variabili per sapere quale numero è più alto
 if (numPc > numUser) {
   point = `Ha vinto il PC con il numero: ${numPc} contro il numero dello user: ${numUser}`;
 }
